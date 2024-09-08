@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class Profesor {
+public abstract class Profesor extends Asalariado {
+    public Profesor(String nombre) {
+        super(nombre);
+    }
 }
+

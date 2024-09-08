@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public abstract class Voluntario extends Persona {
+    public Voluntario(String nombre) {
+        super(nombre);
+    }
 
-public class Voluntario {
+    // Método abstracto calcularBono accesible desde el main
+    public abstract void calcularBono();
 }
+
+
